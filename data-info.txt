@@ -1,0 +1,34 @@
+DATASET INFORMATION
+-------------------
+Name: Telco Customer Churn Dataset
+Source: https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+File: WA_Fn-UseC_-Telco-Customer-Churn.csv
+Records: 7043 customers
+Columns: 21 features
+
+DESCRIPTION:
+This dataset contains information about telecom customers, including demographic details, account information, and service usage patterns. The target variable 'Churn' indicates whether a customer left the company (Yes) or stayed (No).
+
+COLUMNS OVERVIEW:
+- customerID: Unique customer identifier
+- gender: Male / Female
+- SeniorCitizen: 1 if senior citizen, 0 otherwise
+- Partner: Whether the customer has a partner
+- Dependents: Whether the customer has dependents
+- tenure: Number of months the customer has stayed
+- PhoneService: Whether the customer has phone service
+- MultipleLines: Whether the customer has multiple lines
+- InternetService: Type of internet (DSL, Fiber optic, None)
+- OnlineSecurity, OnlineBackup, DeviceProtection, TechSupport, StreamingTV, StreamingMovies: Internet add-ons
+- Contract: Month-to-month, One year, Two year
+- PaperlessBilling: Whether the customer has paperless billing
+- PaymentMethod: Payment type
+- MonthlyCharges: Monthly bill amount
+- TotalCharges: Total charges
+- Churn: Target variable (Yes/No)
+
+LICENSE:
+This dataset is publicly available for research and educational purposes.
+
+USAGE IN THIS PROJECT:
+Used for predictive modeling to identify factors influencing customer churn and to predict the likelihood of churn using logistic regression.
